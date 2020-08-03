@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+html {
+    min-height: 100vh;
+    /*Creates the full height of the page; lets the html stretch the size of the page.*/
+}
+
 body {
     margin: 0;
     background: radial-gradient(blue, green);
