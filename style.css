@@ -25,6 +25,15 @@ body {
     font-size: 6em;
 }
 
+.game-container {
+    /*by selecting the grid column 1 and -1 we are telling it to take the whole first row so only the info can be there
+    using the justify-content as space-between and displaying the flex. We are able to have the timer on one side and the
+    number flips on the other end of the row..*/
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+}
+
 .container {
     /*Using a grid display; a grid template column so we can have 4 columns to auto size the size of the elements.*/
     display: grid;
