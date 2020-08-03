@@ -24,3 +24,10 @@ body {
     text-align: center;
     font-size: 6em;
 }
+
+.info {
+    font-family: monospace;
+    color: red;
+    text-align: center;
+    font-size: 4em;
+}
