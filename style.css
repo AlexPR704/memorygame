@@ -8,5 +8,6 @@
 
 body {
     margin: 0;
-    background: blue;
+    background: radial-gradient(blue, green);
+    /*Using radial-gradient creates an image consisting of a progressive transition between two or more colors that radiate from an origin.*/
 }
