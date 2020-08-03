@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 * {
@@ -25,13 +25,21 @@ body {
     font-size: 6em;
 }
 
+.container {
+    /*Using a grid display; a grid template column so we can have 4 columns to auto size the size of the elements.*/
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+}
+
 .info {
     font-family: monospace;
     color: red;
-    text-align: center;
     font-size: 4em;
 }
 
 .card {
     background-color: black;
+    height: 175px;
+    width: 125px;
 }
