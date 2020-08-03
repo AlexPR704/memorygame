@@ -31,3 +31,7 @@ body {
     text-align: center;
     font-size: 4em;
 }
+
+.card {
+    background-color: black;
+}
