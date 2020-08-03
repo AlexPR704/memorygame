@@ -13,6 +13,14 @@ html {
 
 body {
     margin: 0;
-    background: radial-gradient(blue, green);
+    background: radial-gradient(yellow, green);
     /*Using radial-gradient creates an image consisting of a progressive transition between two or more colors that radiate from an origin.*/
+}
+
+.page-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-weight: normal;
+    text-align: center;
+    font-size: 6em;
 }
