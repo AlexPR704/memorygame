@@ -63,3 +63,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.corner {
+    position: absolute;
+    width: 47px;
+    height: 47px;
+}
