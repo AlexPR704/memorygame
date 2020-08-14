@@ -50,6 +50,7 @@ body {
 }
 
 .card {
+    position: relative;
     background-color: black;
     height: 175px;
     width: 125px;
