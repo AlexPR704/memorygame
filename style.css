@@ -34,7 +34,7 @@ body {
     justify-content: space-between;
 }
 
-.container-grid {
+.game-container {
     /*Using a grid display; a grid template column so we can have 4 columns to auto size the size of the elements.*/
     display: grid;
     grid-template-columns: repeat(4, auto);
