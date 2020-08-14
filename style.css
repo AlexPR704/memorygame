@@ -51,7 +51,7 @@ body {
 
 .card {
     position: relative;
-    background-color: black;
+    background-color: white;
     height: 175px;
     width: 125px;
 }
@@ -72,24 +72,24 @@ body {
 }
 
 .corner-top-left {
-    transform: rotate(300deg);
     top: 0;
     left: 0;
 }
 
 .corner-top-right {
+    transform: rotate(90deg);
     top: 0;
     right: 0;
 }
 
 .corner-bottom-left {
-    transform: rotate(180deg);
+    transform: rotate(-90deg);
     bottom: 0;
     left: 0;
 }
 
 .corner-bottom-right {
-    transform: rotate(90deg);
+    transform: rotate(180deg);
     bottom: 0;
     right: 0;
 }
