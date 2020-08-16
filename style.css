@@ -63,6 +63,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    transform: rotateX(180deg);
 }
 
 .corner {
@@ -92,4 +97,14 @@ body {
     transform: rotate(180deg);
     bottom: 0;
     right: 0;
+}
+
+.laptop {
+    align-self: center;
+    height: 100px;
+    width: 100px;
+}
+
+.card-back:hover .laptop {
+    transform: translateY(0);
 }
