@@ -78,6 +78,10 @@ body {
 }
 
 .card-front {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
     transform: rotateY(180deg);
 }
 
