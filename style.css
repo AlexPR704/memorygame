@@ -85,6 +85,10 @@ body {
     transform: rotateY(180deg);
 }
 
+.card-front:hover .card-html {
+    transform: scale(1);
+}
+
 .corner {
     position: absolute;
     width: 47px;
